@@ -4,7 +4,7 @@ describe SubclassedPagesController do
   render_views
 
   describe "on GET to /subclassed_pages/also_exists" do
-    before { get :show, :id => "also_exists" }
+    before { get :show, id: "also_exists" }
 
     it "responds with success and render template" do
       expect(response).to be_succes
