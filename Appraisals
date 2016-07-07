@@ -8,6 +8,5 @@ end
 
 appraise "rails50" do
   gem "rails", "~> 5.0.0"
-  gem "rspec-rails", "3.5.0.beta4"
   gem "rails-controller-testing"
 end
